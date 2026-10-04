@@ -1,0 +1,32 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# Logs
+*.log
+logs/
+
+# Generated runtime data
+data/telemetry_history.csv
+data/latest_data.json
+data/attack_mode.txt
+
+# SWaT raw dataset
+data/swat/*.xlsx
+
+# HAI dataset
+hai/
+
+# Large/generated ML models
+models/swat_anomaly_model.joblib
+models/swat_scaler.joblib
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# VS Code local settings
+.vscode/
